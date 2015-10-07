@@ -1,0 +1,173 @@
+/*
+Project Name: Relaxr
+Client: Relaxr
+Author: Kate Ryan
+Developer @GA in NYC
+*/ 
+
+
+   body {
+     color: #000;
+     font-size: 12px;
+     line-height: 2.0;
+      font-family: 'Open Sans', sans-serif;
+      margin-left: 350px;
+      margin-right: 350px;
+      text-align: center;
+
+
+    
+      
+    }
+        #header {
+          background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+          background-size: cover;
+         
+          height: 250px;
+        
+          
+ 
+}
+          .relaxr {
+              color: white;
+              font-size: 24px;
+              text-align: left;
+              padding-bottom: 15px;
+              font-weight: semi-bold;
+    
+                  }
+                  
+          .Piece {
+            font-size: 23px;
+            color: white;
+            text-align: center;
+            padding-bottom: 30px;
+
+          }
+
+          .button1 {
+            color: #033048;
+            font-weight: bold;
+            font-size:20px;
+            background-color: yellow;
+            text-align: center;
+            padding-left: 35px;
+            padding-right: 35px;
+            padding-top: 5px;
+            padding-bottom: 5px; 
+    
+                }
+                
+
+          #middle {
+            background-color: #f0efef;
+            height: 250px;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-right: 100px;
+          
+               
+          }
+              .benefits {
+              font-weight: semi-bold;
+              color:#033048;
+              text-align: left;
+              font-size: 20px;
+              font-weight:semi-bold;
+              padding: 10px;
+            
+              
+              }
+
+              .assistant {
+                font-size:13px;
+                text-align: left;
+                color:#606161;
+                font-weight: lighter;
+                padding-left: 50px;
+                padding-right: 75px;
+                padding-bottom: 10px;
+                
+
+              }
+             
+
+                ul ,li {
+                font-weight: lighter;
+                font-size: 13px;
+                 color:#606161;
+                 list-style-type: circle;
+                 
+              }
+                li {
+                  text-align: left;
+                }
+              
+              #footer1{
+                height: 125px;
+                background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+                background-size: cover;
+                color: white;
+                font-size:15px;
+                padding-top: 25px;
+                padding-left: 150px;
+                padding-right: 150px;
+            
+              }
+              blockquote {
+                font-style: italic;
+                font-weight: lighter;
+                font-size: 13px;
+              }
+  
+            
+              .Amanda {
+                font-size: 15px;
+                font-weight: bold;
+                text-align: center;
+              }
+
+              #footer2 {
+                background-color: yellow;
+                height: 50px;
+                padding-top: 25px;
+
+              }
+              .button2 {
+                color: white;
+                font-weight: bold;
+                font-size:14px;
+                background-color:#033048;
+                padding-left: 35px;
+                padding-right: 35px;
+                padding-top: 10px;
+                padding-bottom: 5px;          
+ 
+              }
+              #footer3 {
+                background-color: black;
+                height: 125px;
+                padding-top: 50px;
+              }
+              .repeat {
+                font-size: 24px;
+                font-weight: bolder;
+                color: yellow
+
+              }
+              img{
+                width: 15px;
+                height: 15px;
+               }
+              
+              .copyright {
+                font-size: 9px;
+                font-weight: bolder;
+                color: white;
+              }
+              
+              
+              
+
+
+
