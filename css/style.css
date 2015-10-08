@@ -1,0 +1,215 @@
+/*
+Project Name: Relaxr Landing Page
+Client: Your Client
+Author: Leah McCloskey
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans, Arial, sans-serif;
+     background-image: url(../images/header_bg.jpg); 
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-color: rgb(134,141,157);
+      -moz-background-size: cover;
+      background-size: contain;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+.container {
+  width: 960px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+#wrapper{
+  height:100%;
+}
+
+header {
+  font-size: 24px;
+  font-weight: 800;
+  color: white;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+h2{
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  color: white;
+  padding: 100px;
+}
+button{
+  font-size: 14px;
+  color: #033048;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: #f9e42e;
+  padding: 6px 30px 6px 30px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.benefits{
+  background-color: #f0efef;
+  height: 400px;
+  padding: 50px 50px 200px 50px;
+  margin-top: 150px;
+}
+
+.benefits h3 {
+  color: #033048;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px 0px 20px 0px;
+}
+p {
+  font-size: 17px;
+  font-weight: 200;
+  color: #606161;
+}
+ul{
+  font-size: 16px;
+  font-weight: 200;
+  color: #606161;
+  margin-left: 10%;
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.article{
+  background-image: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 340px;
+}
+.article2{
+  background-color: #f9e42e;
+  padding: 30px;
+}
+.article2 button{
+  font-size: 14px;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  background-color: #033048;
+  padding: 6px 30px 6px 30px;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+.article p{
+  display: block;
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 100px;
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: 100;
+  width: 250px;
+  margin: 0 auto;
+  border: 200px;
+}
+.article p b{
+  font-weight: 600;
+  font-style: normal;
+  padding: 20px;
+  line-height: 54px;
+}
+
+
+footer {
+  background-color: #121212;
+  text-align: center;
+  color: white;
+}
+footer img{
+  height: 30px;
+  margin: 20px;
+
+}
+footer h1{
+  font-size: 24px;
+  font-weight: 700;
+  color: #f9e42e;
+  padding: 20px;
+}
+footer p{
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+ @media only all and (min-width: 968px) {
+  body { 
+      color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Open Sans, Arial, sans-serif;
+     background-image: url(../images/header_bg.jpg); 
+     background-position: top center;
+     background-repeat: no-repeat;
+     background-color: rgb(134,141,157);
+      -moz-background-size: cover;
+      background-size: contain;
+  }
+}
+
+
+
