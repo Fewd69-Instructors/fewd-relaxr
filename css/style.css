@@ -133,6 +133,8 @@ article.quote {
   padding: 100px;
   color: white;
   background: url(../images/testimonial_bg.jpg) no-repeat center;
+  width: 100%;
+  background-size: cover;
 }
 
 p.quote {
