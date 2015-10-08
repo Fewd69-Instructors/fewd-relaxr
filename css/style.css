@@ -52,51 +52,101 @@ body {
      font-family: Helvetica, Arial, sans-serif;
      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
+      background-size: contain;
       font-family: 'Open Sans', sans-serif;
-      margin: 40px 120px 20px 120px
 }
 
 h1 {
   font-size: 24px;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 800;
+  font-weight: 600;
   color: white;
+  padding-bottom: 20px;
 
 }
 
 h2 {
   font-weight: 600;
-  font-size: 24px;
+  font-size: 22px;
   color: white;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 h3 {
   font-weight: 600; 
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 h4 {
-font-size: 18px;
-font-family: 'Open Sans', sans-serif;
-font-weight: 600;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+h5 {
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #f9e42e;
+  padding-bottom: 20px;
+}
+
+.quote {
+    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+    height: 200px;
+    text-align: center;
+    width: 100;
+}
+
+blockquote {
+  font-weight: 300;
+  font-size: 16px;
+  color: white;
+  font-style: italic;
+  padding-top: 30px;
+  text-align: center;
+  padding: 40px 200px 5px 200px;
   }
 
-  blockquote {
-    font-weight: 300italic;
-    font-size: 18px;
-  }
 
-#signup {
+
+ul {
+  padding-left: 60px;
+}
+
+#getit {
   background-color: #f9e42e;
   color: #033048;
   font-weight: 800;
-  font-size: 18px;
+  font-size: 13px;
   -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     border-radius: 4px;
   width: 10em;  height: 2em;
 }
+
+.bottombutton {
+  background-color: #f9e42e;
+  color: white;
+  height: 40px;
+  padding: 7px;
+  text-align: center;
+}
+
+#signup {
+  background-color: #121212;
+  color: white;
+  font-weight: 600;
+  font-size: 12px;
+  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 4px;
+  width: 10em;  height: 2em;
+}
+
 
 /******************************************
 /* LAYOUT
@@ -106,21 +156,55 @@ font-weight: 600;
 .container {
   width: 960px;
   margin: auto;
-  height: 500px;
+  height: 300px;
   margin-top: 30px;
 }
 
 .benefits {
   background-color: #f0efef;
+  width: auto;
+  padding: 30px;
+  padding-right: 400px;
 }
-header {
-    margin-top: 30px;
 
+header {
+    margin: 10px 40px 20px 40px;
+    height: 350px;
 }
 
 footer {
-  font-weight: 800;
+  font-weight: 400;
   font-size: 9px;
+  color: white;
+  text-align: center;
+  margin: 20px;
+  padding: 10px 0 10px 0;
+}
+
+li {
+  list-style-type: disc;
+  padding-left: 40px;
+}
+
+.firstgraph {
+  margin-bottom: 20px;
+}
+
+.button {
+  text-align: center;
+}
+
+.end {
+  padding: 20px;
+  text-align: center;
+}
+
+.blackbackground {
+  background-color: #121212;
+}
+
+nav {
+  text-align: center;
 }
 
 /******************************************
