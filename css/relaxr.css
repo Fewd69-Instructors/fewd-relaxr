@@ -1,0 +1,10 @@
+body {
+
+  font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-position: center;
+}
+
+.middlep {
+	margin: 100px
+}
