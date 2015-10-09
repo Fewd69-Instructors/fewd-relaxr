@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  background-color: #f0efef;
+}
+
+#container {
+  width: 960px;
+  margin: auto;
+}
+
+.header {
+  height: 80px;
+  background-color: #033048;
+  padding: 30px;
+}
+
+.header h1{
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+  float: left;
+}
+
+.header nav{
+  float: right;
+  color: #f9e42e;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+.header a{
+  padding-left: 15px;
+}
+
+.blog{
+  width: 700px;
+  height: auto;
+  padding: 50px 30px 50px 0px; 
+  float: left;
+  background-color: #f0efef;
+  clear: left;
+}
+
+.blog h1{
+  font-weight: 600;
+  font-size: 24px;
+  color: #033048;
+}
+
+.blog img{
+  width: 500px;
+}
+
+.blog p {
+  color: #606161;
+  font-size: 14px;
+}
+
+.blog span{
+  font-weight: 600;
+  font-size: 18px;
+  color: #033048;
+  float: right;
+}
+
+.sidebar{
+  width: 260px;
+  height: 998px;
+  float: left;
+  background-color: #f0efef;
+  padding-top: 50px;
+  padding-right: 80px;
+  color: #033048;
+}
+
+.sidebar h1{
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.sidebar p{
+  font-size: 14px;
+}
+
+.sidebar nav{
+  font-size: 14px;
+}
+
+.sidebar span{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.adunit{
+  width: 180px;
+  height: 300px;
+  text-align: center;
+  background-color: white;
+  margin-left: 20px;
+}
+
+.bar{
+  width: 100%;
+  height: 80;
+  background-color: #f9e42e;
+  padding: 20px 150px 20px 150px;
+  float: left;
+}
+
+.bar button{
+  background-color: #033048;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  padding: 7px 45px 7px 45px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 0;
+}
+
+footer{
+  width: 100%;
+  background-color: #121212;
+  text-align: center;
+  float: center;
+  padding: 40px 150px 40px 150px;
+  float: left;
+  clear: left;
+}
+
+footer p{
+  color: white;
+}
+
+footer h1{
+  font-weight: 700;
+  color: #f9e42e;
+  font-size: 24px;
+}
+
+#Twitter{
+  margin: 30px 20px 30px 20px;
+}
+#Facebook{
+  margin: 30px 20px 30px 20px;
+}
