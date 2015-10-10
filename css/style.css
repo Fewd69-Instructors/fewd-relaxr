@@ -1,0 +1,189 @@
+body{
+  font-family: 'Open Sans', 'Helvetica', sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+}
+.header {
+  background-image: url("../images/header_bg.jpg");
+  background-position: center;
+  background-repeat: repeat-x;
+  width: auto;
+  margin: auto;
+  height: 350px;
+  padding: 10px 40px 10px 40px;
+}
+.header h1{
+  font-weight: 700;
+  color: white;
+  font-size: 24px;
+}
+.header h2{
+  font-size: 24px;
+  color: white;
+  font-weight: 600;
+  text-align: center;
+}
+.header button{
+  background-color: #f9e42e;
+  color: #033048;
+  margin: 0 auto;
+  display: block;
+  padding: 7px 35px 7px 35px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 0;
+}
+.benefits{
+  background-color: #f0efef;
+  padding: 40px 200px 40px 40px;
+}
+.benefits h1{
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+}
+.benefits p,ul{
+  font-size: 15px;
+  font-weight: 350;
+  color: #606161;
+  list-style-type: disc;
+}
+.benefits ul{
+  padding-left: 40px;
+}
+.quote {
+  background-image: url("../images/testimonial_bg.jpg");
+  color: white;
+  text-align: center;
+  padding: 40px 150px 40px 150px;
+}
+.quote blockquote{
+  font-weight: 300;
+  font-size: 18px;
+  font-style: italic;
+}
+.quote p{
+  font-weight: 600;
+  font-size: 18px;
+  font-style: normal;
+}
+.bar{
+  background-color: #f9e42e;
+  padding: 20px 150px 20px 150px;
+}
+.bar button{
+  background-color: #033048;
+  color: white;
+  margin: 0 auto;
+  display: block;
+  padding: 7px 45px 7px 45px;
+  font-weight: 700;
+  font-size: 14px;
+  border-radius: 5px;
+  border-width: 0;
+}
+footer{
+  background-color: #121212;
+  text-align: center;
+  float: center;
+  padding: 40px 150px 40px 150px;
+}
+footer p{
+  color: white;
+}
+footer h1{
+  font-weight: 700;
+  color: #f9e42e;
+  font-size: 24px;
+}
+#Twitter{
+  margin: 30px 20px 30px 20px;
+}
+#Facebook{
+  margin: 30px 20px 30px 20px;
+}
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+/** {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}*/
+
+/* Clear fix hack */
+/*.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}*/
+
+/*.clear {
+  clear: both;
+}*/
+
+/*.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}*/
+
+/*.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+     background-size: cover;
+}*/
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+/*.container {
+  width: 960px;
+  margin: auto;
+  height: 500px;
+}*/
+
+/*header {
+
+}
+
+footer {
+
+}*/
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
