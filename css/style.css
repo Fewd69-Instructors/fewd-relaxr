@@ -1,0 +1,175 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     background-color: #606161;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans', arial, sans-serif;
+      background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 960px;
+  margin: auto;
+  height: 500px;
+
+}
+
+h1 {
+      font-size: 24px;
+      color:#FFFFFF;
+      font-weight: 800;
+    }
+      
+h2 {
+      font-size: 24px;
+      font-weight: 600;
+      color:#FFFFFF;
+      text-align: center;
+    }
+
+.button {
+  text-align: center;
+  font-weight: 800;
+  margin: 28px auto;
+  width: 200px; 
+text-decoration: none;
+  padding: 10px 50px ;
+  background-color: #f9e42e;
+  color: #033048;
+  font-size:14px;
+border-radius: 5px;
+display: block;}
+header{  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+height:500px;}
+
+#calltoaction {margin-top: 100px;}
+
+article{
+background-color:#f0efef;
+font-size: 13px;
+      font-weight: 300;
+      color:#606161;
+      text-align: left;}
+header, article, footer
+{padding: 40px 80px;
+}
+ h4 { 
+    font-size: 24px;
+      font-weight: 600;
+      color:#033048;
+    }
+ ul {
+    list-style:disc inside;
+        margin-left: 40px;
+    }
+
+section {
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+height:250px;
+}
+#quote {
+      font-size: 18px;
+      font-weight: 300;
+      color:#FFFFFF;
+      text-align: center;
+      vertical-align: middle;
+      font-style: italic;
+    }
+#signature { 
+      font-size: 18px;
+      font-weight: 600;
+      color:#FFFFFF;
+      text-align: center;
+      vertical-align: middle;
+}
+
+#quote {padding:26px 330px 13px;}
+nav {
+  padding:20px;
+  background-color: #f9e42e
+}
+
+.button2 {
+  text-align: center;
+  font-weight: 800;
+  margin: 0 auto;
+  width: 200px; 
+text-decoration: none;
+  padding: 10px 50px ;
+  color: #ffffff;
+  background-color: #033048;
+  font-size:12px;
+border-radius: 5px;
+display: block}
+
+header{background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+height:500px;}
+
+footer{text-align:center;
+  background-color:#121212;
+  color:#ffffff;
+  font-weight: 600;
+  font-size: 9px;}
+#socialicons img {margin:10px}
+
+footer h1 {color: #f9e42e}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
