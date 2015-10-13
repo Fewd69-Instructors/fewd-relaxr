@@ -88,15 +88,12 @@ footer {
   width: 960;
 }
 
-.logo {
-  font-size: 36px;
-  font-weight: 800;
-}
-
 #logotop {
   color: white;
   text-align: left;
   display: inline;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 h2 {
@@ -116,7 +113,7 @@ h2 {
   font-size: 24px;
 }
 
-.button {
+button {
   border-radius: 5px;
   border: 5px;
   font-size: 20px;
@@ -185,6 +182,8 @@ blockquote {
 #footerlogo {
   color: #f9e42e;
   padding: 70px 0 25px 0;
+  font-size: 36px;
+  font-weight: 800;
 }
 
 img.social {
