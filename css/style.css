@@ -51,7 +51,6 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      background-size: cover;
-     background-color: rgba(128, 128, 128, 0.63);
 }
 
 
@@ -63,18 +62,18 @@ body {
 #container {
   width: 960px;
   margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.63);
 }
 
-header {
+#main-header {
   background: url(../images/header_bg.jpg) no-repeat center rgb(134,141,157);
   height: 290px;
   width: 100%;
   text-align: center;
   padding: 1px;
-
 }
 
-#relaxr-header {
+.relaxr-header-title {
   font-weight: bolder;
   color: white;
   font-size: 24px;
@@ -210,8 +209,137 @@ footer p {
 
 
 /******************************************
-/* ADDITIONAL STYLES
+/* Blog CSS
 /*******************************************/
+
+#blog-container {
+  background-color: #EFEEEE;
+  float:left;
+}
+#blog-header {
+  height: 110px;
+  width: 100%;
+  border: 1px solid black;
+  background-color: #033048;
+  float: left;
+}
+
+#blog-header .relaxr-header-title {
+  font-size: 40px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 420px;
+}
+
+#blog-header-nav nav ul li a {
+  font-weight: 400;
+  font-size: 20px;
+  float: left;
+  margin-top: 0px;
+  margin: 10px;
+  padding-top: 25px;
+  color: #f9e42e;
+}
+
+#blog-posts {
+  float: left;
+  width: 50%;
+  margin-left: 13%;
+}
+
+.post-titles {
+  font-size: 40px;
+  font-weight: 500;
+  color: #033048;
+  margin-top: 10px;
+  width: 650px;
+}
+
+.post-content {
+  margin-top: 10px;
+  color: rgba(96, 97, 97, 0.71);
+  font-weight: lighter;
+}
+
+.post-images {
+  width: 650px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-content {
+  font-weight: 400;
+  font-size: 19px;
+  width: 650px; 
+  float: left;
+}
+
+.read-more {
+  font-size: 20px; 
+  font-weight: 400;
+  color: #033048;
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+hr {
+  clear: right;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  margin-right: 30px;
+}
+
+.aside-titles {
+  font-weight: bold;
+  font-size: 30px;
+  color: #033048;
+  margin-bottom: 10px;
+}
+
+#side-categories {
+  padding-top: 20px;
+}
+
+.aside-content {
+  font-size: 17px;
+  font-weight: lighter;
+  color: #033048;
+  width: 54%;
+}
+
+#about-relaxr {
+  margin-top: 20px;
+}
+
+#ad-unit {
+  margin-top: 50px;
+}
+
+#last-hr {
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
