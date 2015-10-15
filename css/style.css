@@ -1,0 +1,260 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+.container {
+
+  width: 960px;
+  margin: auto;
+}
+
+#header {
+  
+  background-color: #033048; 
+  width: 100%;
+  height: 100px;
+  overflow: auto;
+  padding-top: 30px;
+
+}
+
+.nav {
+
+   font-size: 24px; 
+   color: "#f9e42e";
+   float: right;
+
+}
+
+a {
+
+  color: "#f9e42e";
+  padding: 1em;
+
+}
+
+body {
+
+  background-color: #f0efef;
+
+}
+
+.section {
+
+  width: 700px;
+  margin: 100px 10px 20px 10px;
+  padding: 10px;
+  float: left;
+  overflow: auto;
+
+}
+
+.article {
+
+  width: 680px;
+  border-bottom-width: solid #121212 5px;
+  margin-bottom: 50px;
+  float:left;
+  overflow: auto;
+
+}
+
+.subheadings {
+
+  width: 680px;
+  float: left;
+  overflow: auto;
+
+}
+
+.images {
+
+  width: 620px;
+
+
+}
+
+.text {
+
+  width: 660px;
+  overflow: auto;
+}
+
+.readmore {
+
+  font-size: 24px; "semi-bold";
+  float: right; 
+
+}
+
+p {
+
+  font-size: light 24px;
+
+}
+
+h1 {
+
+  font-size: 30px; "semi-bold";
+  color: white;
+  display: inline;
+
+}
+
+h2 {
+
+  font-size: 40px; "light";
+
+}
+
+h3 {
+
+  font-size: 40px; "semi-bold";
+  margin-bottom: 10px;
+
+}
+
+.aside {
+
+  width: 240px;
+  margin-top: 100px;
+  margin: 50px 0px 0px 0px;
+  float: right;
+
+}
+
+.block {
+
+  width: 240px;
+  padding: 20px 0px 20px 0px;
+  margin: 20px 0px 20px 0px;
+
+}
+
+li {
+
+  font-size: 24px; "light"
+
+}
+
+#AdUnitBlock {
+
+  text-align: center;
+  background-color: white;
+  padding: 20px 10px 20px 10px;
+  margin-top: 30px;
+  height: 300px;
+
+}
+
+.yellowbar {
+
+  width: 100%;
+  height: 100px;
+  background-color: #f9e42e;
+  clear: both;
+  
+}
+
+.button {
+
+  margin: 40px 430px 40px 430px;
+  width: 100px
+  height: 40px;
+  color: white;
+  background-color: #033048;
+
+}
+
+.footer {
+
+  width: 100%;
+  height: 180px;
+  background-color: #121212;
+  padding: 30px;
+  clear: both;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+h4 {
+
+  text-align: center;
+  color: #f9e42e;
+  font-size: 28px; 
+}
+
+.social {
+
+  margin: 20px;
+
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
