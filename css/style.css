@@ -1,0 +1,213 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack *
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+/*
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: Helvetica, Arial, sans-serif;
+     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+
+.top {
+  width: 600px;
+  margin: auto;
+  height: 200px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: sans-serif;
+  color:white;
+  text-align: center;
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: 960px 200px;
+}
+
+#relaxr{
+  font-weight: 600;
+  height:100px;
+  text-align: left;
+  margin: 0 0 0 50px;
+  padding-top: 10px;
+}
+
+#peace{
+  margin-bottom: 20px;
+}
+
+#button{
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600px;
+  background-color: #f9e42e;
+  padding: 5px 30px 5px 30px;
+}
+
+.benefits{  
+  width: 600px;
+  margin: auto;
+  height: 200px;
+  background-color: #f0efef;
+  font-family: sans-serif;
+  color:gray;
+}
+
+#benheader{
+  font-size: 24px;
+  font-weight: 500; 
+  padding-top: 10px;
+}
+
+#perfect{
+  font-weight: 100;
+  font-size:13px;
+  padding-top: 10px;
+  margin-right: 200px
+}
+
+#list{
+  font-weight: 100;
+  font-size:13px;
+  padding-top: 20px;
+  list-style-type: circle;
+  margin-left: 40px;
+  margin-right: 340px
+}
+
+.testimony{
+  width: 600px;
+  margin: auto;
+  height: 200px;
+  font-family: sans-serif;
+  color:white;
+  text-align: center;
+  background: url(../images/testimonial_bg.jpg);
+}
+
+#quote{
+  padding-top: 50px;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+#amanda{
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.signup{
+  background-color: #f9e42e;
+  width: 600px;
+  margin: auto;
+  height: 50px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#upnow{
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  background-color: #033048;
+  color: white;
+  padding: 5px 30px 5px 30px;
+}
+
+.bottom{
+  background-color: #606161;
+  width: 600px;
+  margin: auto;
+  height: 200px;
+  text-align: center;
+  color: #f9e42e;
+}
+
+#rebottom{
+  font-weight: 600;
+  font-size: 24px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+
+#footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color:white;
+  font-size: 10px;
+}
+
+#fbk{
+  height:20px;
+  width:16px;
+  padding-left:5px;
+}
+
+#twtr{
+  height:20px;
+  width:30px;
+  padding-right: 5px;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
