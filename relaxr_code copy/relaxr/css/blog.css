@@ -1,0 +1,124 @@
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+
+}
+
+  #header {
+    background-color: #033048;
+    height: 75px;
+    width: 1010px;
+
+  
+
+  }
+  .relaxr {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 10px;
+    float:left;
+    
+  }
+  .nav1 {
+    float: right;
+    color:yellow;
+    padding:10px;
+  }
+  a:link {
+    color:yellow;
+  }
+  
+  #main {
+    background-color: #f0efef;
+    width: 700px;
+    color: #606161;
+    padding: 25px;
+    float: left;
+
+
+  }
+  #main h1 {
+    font-size: 40px;
+    color:#033048;
+    font-weight: bold;
+
+
+}
+  #footer {
+    background-color: #f9e42e;
+    color:  white;
+    font-weight: bold;
+    width: 700px;
+    height: 50px;
+    padding: 25px;
+    float: left;
+
+}
+  button {
+    text-align: center;
+    background-color: #033048;
+    color:  white;  
+    font-weight: bold;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
+
+  }
+
+#end-tag {
+  width: 700px;
+  padding: 25px;
+  float: left;
+  background-color: black;
+  }
+
+  #end-tag h1{
+    font-weight: bold;
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+
+  }
+  #end-tag img{
+   display: block;
+    margin: 0 auto;
+  }
+  #end-tag p {
+    color: white;
+  }
+
+#aside {
+  background-color: #f0efef;
+  height: 1336px;
+  width:240px;
+  padding: 10px;
+  color: #606161;
+  float: left;
+
+}
+
+#aside h2
+{
+  font-weight: bold;
+  font-size: 32px;
+  color: #033048;
+
+}
+.ad {
+  height: 300px;
+  background-color: white;
+  font-size: bold;
+  text-align: center;
+  color: #033048;
+}
+
+
+
+
+
+
+
+
