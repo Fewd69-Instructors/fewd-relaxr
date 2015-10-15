@@ -49,7 +49,8 @@ body {
      color: #000;
      font-size: 12px;
      line-height: 1.4;
-     font-family: font-family: 'Open Sans', sans-serif;
+     font-family:'Open Sans', sans-serif;
+     background-color:#f0efef;
 }
 
 
@@ -58,25 +59,25 @@ body {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 960px;
-  margin: auto;
+  margin: 0 auto;
   height: 500px;
 }
 
 header {
   background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: 960px 500px;
+      background-size: 100%;
   color:white;
-  width: 960px;
-  height: 500px;
   margin: auto;
  }
 
 h1 {
   font-weight: 800;
   font-size: 24px; 
-  margin-left:50px;
+  color:white;
+  padding-left:10px;
+  padding-top:10px;
 }
 
 h2 {
@@ -126,7 +127,6 @@ ul {
  .testimony{
   background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
-  width:960px;
   height:300px;
   margin:0 auto;
   color:#FFF;
@@ -151,8 +151,7 @@ ul {
 .signup {
   background-color:#f9e42e;
   height:100px;
-  width:960px;
-  margin: auto;
+  margin:0 auto;
 }
 
 .signupnow{
@@ -163,14 +162,13 @@ ul {
   font-size:12px;
   border-radius: 5px;
   padding:10px;
-  margin:30px 0px 0px 400px;
+  margin:30px 0px 0px 386px;
 }
 
 footer {
   background-color:#121212;
   color:white;
   height:250px;
-  width:960px;
   margin:0 auto;
   font-size:9px;
   font-weight:600;
@@ -192,6 +190,116 @@ h4 {
 .twitter {
   padding:15px;
   padding-bottom:30px;
+}
+
+.blogheader {
+  background-color:#033048;
+  height:75px;
+}
+
+.headerlinks {
+  text-decoration:none;
+  color:#f9e42e;
+  font-size:22px;
+  float:right;
+  padding-right:20px;
+}
+
+article{
+  float:left;
+  width: 700px;
+  height: 1500px;
+  background-color: #f0efef;
+  margin:20px 5px 20px 5px;
+}
+
+aside {
+  float:left;
+  width: 240px;
+  height: 1500px;
+  background-color: #f0efef;
+  margin:20px 5px 20px 5px
+}
+
+.categories {
+  font-size:24px;
+  font-weight:300;
+  list-style-type:none;
+}
+
+.posttitles {
+  font-size:40px;
+  font-weight:600;
+  color:#033048;
+  padding:10px;
+}
+
+.article {
+  font-weight:300;
+  font-size:24px;
+  padding:10px;
+}
+
+p.article::first-letter {
+  font-size:250%;
+  float:left;
+  padding:0;
+}
+
+.articletitles {
+  font-size:32px;
+  color:#033048;
+  font-weight:800;
+  padding:5px;
+}
+
+.proin {
+  font-size:22px;
+  font-weight:300;
+  padding:10px;
+}
+
+
+.learnmore{
+  font-weight:600;
+  font-size:22px;
+  text-decoration:none;
+  color:#033048;
+  padding:10px;
+}
+
+.ad {
+  float:left;
+  width:225px;
+  padding:10px;
+  margin-top:40px;
+}
+
+.readmore {
+  margin-left:550px;
+  font-weight:600;
+  font-size:24px;
+  color:#033048;
+  text-decoration:none;
+}
+
+.blogsignup {
+  background-color:#f9e42e;
+  float:left;
+  height:100px;
+  width:1349px;
+}
+
+.blogfooter {
+  background-color:#121212;
+  color:white;
+  height:250px;
+  width:1349px;
+  margin:0 auto;
+  font-size:9px;
+  font-weight:600;
+  text-align:center;
+  float:left;
 }
 
 
