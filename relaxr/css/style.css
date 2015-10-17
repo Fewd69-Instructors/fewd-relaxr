@@ -51,13 +51,13 @@ Developer @GA in NYC
   padding: 40px 200px 40px 40px;
 }
 .benefits h1{
-  font-weight: 650;
-  font-size: 24px;
+  font-weight: 550px;
+  font-size: 25px;
   color: #033048;
 }
 .benefits p,ul{
-  font-size: 15px;
-  font-weight: 350;
+  font-size: 16px;
+  font-weight: 400px;
   color: #606161;
   list-style-type: disc;
 }
@@ -112,18 +112,18 @@ Developer @GA in NYC
   background-repeat: repeat-x;
   width: auto;
   margin: auto;
-  height: 200px;
-  font-size: 40px;
+  height: 350px;
+  font-size: 45px;
   font-weight: 200px;
   padding: 10px 40px 10px 40px;
 }
 .header h1{
   font-weight: 700px;
   color: white;
-  font-size: 24px;
+  font-size: 30px;
 }
 .header h2{
-  font-size: 24px;
+  font-size: 30px;
   color: white;
   font-weight: 600px;
   text-align: center;
@@ -174,7 +174,7 @@ Developer @GA in NYC
 header {
   background-color: #033048;
   width: 100%;
-  height: 100px;
+  height: 120px;
   color: #FFFFFF;
   font-size: 40px;
   font-weight: 700px;
@@ -191,9 +191,16 @@ header h2 {
 .content {
   height: 900px;
   width: 700px;
-  border: 1px solid red;
+  border: 1px solid black;
   float: left;
   margin-right: 10px;
+
+}
+
+.content h1 {
+  text-align: left;
+  font-weight: 350px;
+  font-size: 25px;
 
 }
 .aside {
@@ -210,6 +217,14 @@ header h2 {
   border: 1px solid red;
   margin: 30px;
 }
+
+.aside p{
+
+font-weight: 350px;
+font-size: 15px;
+
+}
+
 .blogbottombar {
   background-color: #f9e42e;
   padding: 30px;
@@ -226,6 +241,7 @@ header h2 {
   border-radius: 5px;
   border-width: 0;
 }
+
 footer {
   float: center;
   width: 100%;
