@@ -1,0 +1,50 @@
+/*h1, nav {
+  text-align: center;
+}*/
+
+body {
+  font-size: 20px;
+  margin: 0px;
+}
+
+#big{
+  background-image: url("../images/header_bg.jpg");
+  background-size: cover;
+  width: 100%;
+}
+
+#first{
+  height: 600px;
+  padding: 100px 100px;
+}
+
+#second{
+  background-color: grey;
+}
+
+is it more clear now? how to apprach starting from bigger elemetns first? yes, when do we use the design file
+i would get most of the structure down, looking roughly close to the picture and drill down to details ok
+try to get big chunks of boxes figured out. align text, and start adding classes and ids to style them here ok
+
+/*.container {
+  width: 100%;
+  /*border: 1px solid gray;*/
+  background-image: url("images/header_bg.jpg");
+  background-repeat: repeat;
+  height: 400px;
+  margin: 0px;
+}
+
+.container h1 {
+  text-align: left;
+  color: #FFFFFF;
+  margin: 0px;
+  padding-top: 30px;
+}
+
+.container h2 {
+  text-align: center;
+  color: #f0efef;
+  margin: 0px;
+  padding-top: 30px;
+}*/
