@@ -230,6 +230,7 @@ font-size: 15px;
   padding: 30px;
   clear: left;
 }
+
 .blogbottombar button {
   background-color: #033048;
   color: white;
@@ -249,10 +250,12 @@ footer {
   background-color: black;
   text-align: center;
 }
+
 footer p{
   color: white;
   font-size: 9px;
 }
+
 footer h1{
   font-weight: 700;
   color: #f9e42e;
