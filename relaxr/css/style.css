@@ -237,7 +237,7 @@ font-size: 15px;
   margin: 0 auto;
   display: block;
   padding: 7px 45px 7px 45px;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 12px;
   border-radius: 5px;
   border-width: 0;
@@ -257,7 +257,7 @@ footer p{
 }
 
 footer h1{
-  font-weight: 700;
+  font-weight: 700px;
   color: #f9e42e;
   font-size: 24px;
 }
