@@ -112,7 +112,7 @@ footer {
   color: #606161;
   /*why isn't this working?*/
 /*  border: 20px 10px 20px 50px;*/
-  padding: 20px 0px 220px 0px;
+  padding: 20px 0px 20px 0px;
 }
 
 #middle_container h3{
@@ -122,14 +122,14 @@ footer {
 }
 
 #middle_container blockquote{
-  float: left;
+/*  float: left;*/
   font-weight: lighter;
   width: 65%;
-  padding:  20px 10px 20px 50px; 
+  padding:  20px 10px 0px 50px; 
 }
 
 .list{
-  padding: 0px 0px 0px 50px; 
+  padding: 0px 0px 50px 50px; 
 }
 
 #bottom_container{
@@ -137,7 +137,8 @@ footer {
      background-image: url(images/testimonial_bg.jpg);
      background-size:cover;
     /* how do I not set the height of an image?*/
-     height: 200px;
+   /*  height: 200px;*/
+
 }
 
 #bottom_container blockquote{
@@ -146,13 +147,14 @@ footer {
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
-  padding:  30px 100px 10px 100px; 
+  padding:  30px 100px 20px 100px; 
 }
 
 #bottom_container p{
   font-size: 18px;
   text-align: center;
   color: #FFFFFF;
+  padding-bottom: 50px;
 }
 
 #yellow_band{
