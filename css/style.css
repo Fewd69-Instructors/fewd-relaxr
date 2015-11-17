@@ -17,52 +17,37 @@ Developer @GA in NYC
      box-sizing: border-box; /* IE */
 }
 
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
 
-.clear {
-  clear: both;
-}
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
-}
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
-      background-size: contain;
-      font-family: 'Open Sans', sans-serif;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  background-size: contain;
+  font-family: 'Open Sans', sans-serif;
+  width: 960px;
+  margin: auto;
+}
+
+.homepage {
+  background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+  background-size: auto;
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   color: white;
   padding-bottom: 20px;
-
+  padding-left: 20px;
+  padding-top: 5px;
 }
 
 h2 {
@@ -95,10 +80,10 @@ h5 {
 }
 
 .quote {
-    background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
-    height: 200px;
-    text-align: center;
-    width: 100;
+  background: url(../images/testimonial_bg.jpg) no-repeat center top rgb(134,141,157);
+  height: 200px;
+  text-align: center;
+  width: 100;
 }
 
 blockquote {
@@ -123,8 +108,8 @@ ul {
   font-weight: 800;
   font-size: 13px;
   -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
   width: 10em;  height: 2em;
 }
 
@@ -134,6 +119,7 @@ ul {
   height: 40px;
   padding: 7px;
   text-align: center;
+  clear: left;
 }
 
 #signup {
@@ -142,8 +128,8 @@ ul {
   font-weight: 600;
   font-size: 12px;
   -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 4px;
+  -webkit-border-radius: 5px;
+  border-radius: 4px;
   width: 10em;  height: 2em;
 }
 
@@ -168,8 +154,8 @@ ul {
 }
 
 header {
-    margin: 10px 40px 20px 40px;
-    height: 350px;
+  margin: 20px 40px 20px 40px;
+  height: 350px;
 }
 
 footer {
@@ -179,11 +165,11 @@ footer {
   text-align: center;
   margin: 20px;
   padding: 10px 0 10px 0;
+  clear: left;
 }
 
 li {
   list-style-type: disc;
-  padding-left: 40px;
 }
 
 .firstgraph {
@@ -205,7 +191,59 @@ li {
 
 nav {
   text-align: center;
+  width: 500px;
+  float: right;
+  padding-top: 10px;
 }
+
+.blogposts {
+  float: left;
+  width: 630px;
+  background-color: #f1f1f1;
+  padding: 75px;
+  margin-right: 20px;
+}
+
+.blogheader {
+  height: 40px;
+  background-color: black;
+}
+
+.rail {
+  width: 220px;
+  background-color: red;
+  float: left;
+}
+
+.blogrelaxr {
+  float: left;
+}
+
+.blognav {
+  float: right;
+}
+
+.middle {
+  clear: both;
+  width: 100%;
+}
+
+.bloga {
+  color: white;
+  margin-right: 20px;
+  color: yellow;
+  text-decoration: none;
+}
+
+.bloghead {
+  font-family: helvetica, sans-serif;
+}
+
+.blogphoto {
+  margin-bottom: 20px;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
