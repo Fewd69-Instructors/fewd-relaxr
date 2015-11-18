@@ -1,0 +1,146 @@
+
+
+header { 
+    font-family: helvetica;
+    width: 960px;
+    height: 500px;
+
+    margin: 0 auto;
+
+    background: url(../images/header_bg.jpg) no-repeat center top
+}
+
+
+#relaxr {
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+#heading2 {
+/*  margin-left: 40px;*/
+  margin-top: 100px;
+  text-align: center; 
+}
+
+.white_type {
+  color: #fff
+}
+
+aside { 
+    font-family: helvetica;
+    width: 960px;
+    height: 300px;
+    border: 0;
+    margin: 0 auto;
+    background-color: #fff;
+        overflow: auto;
+}
+
+.firstmargin {
+    margin-left: 40px;
+}
+
+#secondmargin {
+    margin-left: 60px;
+    line-height: 2;
+    color: gray;
+}
+#gray2 {
+  color: gray;
+}
+
+footer { 
+    font-family: helvetica;
+    width: 960px;
+    height: 300px;
+    border: 1px solid #333;
+    margin: 0 auto;
+    color: #fff;
+  /*  margin-top: 900px;*/
+    background: url(../images/testimonial_bg.jpg) no-repeat center}
+blockquote {
+    font-family: helvetica;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    padding: 30px;
+
+}
+
+#footer2 {
+    width: 960px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: #fff000;
+
+
+}
+
+#footer3 {
+
+    width: 960px;
+    height: 150px;
+    margin: auto;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    margin-top: -15;
+}
+
+#legal  {
+    margin-top: 0px;
+}
+
+button { 
+    margin-left: 430px; 
+    margin-top: 200px;
+    width: 100px;
+    height: 40px;
+    background-color: fff000;
+
+}   
+
+#button2 { 
+    margin-left: 430px; 
+    margin-top: 10px;
+    width: 100px;
+    height: 30px;
+    background-color: 000;
+    color: fff;
+
+}  
+
+h4 {
+    color: fffooo;
+    margin-top: -.5px;
+    font-family: helvetica;
+}
+
+#header4{
+    color: fff000;
+    padding: 20px;
+
+}
+
+.smaller{
+    width: 20px;
+    height: 30px;
+    margin-top: -30px;
+    padding: 10px;
+}
+
+/*#legal {
+    color: #fff;
+    line-height: 2;
+    text-align: center;
+    padding: 50;
+}*/
+  /*blockquote {
+    font-size: 12;
+    margin: auto;
+    padding: 0.5em 10px;
+    quotes: "
+  }*/
